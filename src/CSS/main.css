@@ -1,0 +1,5 @@
+.bigtext {
+    font-size: 2vw; /* Adjusted font-size to be responsive */
+    color: black;
+    text-decoration: none; /* Removes underline from link */
+}
