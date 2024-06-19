@@ -1,0 +1,7 @@
+.backgroundimg{
+    background-size: cover;
+    background-position: center;
+    width: 99.36%;
+    height: 100vh;
+    border: 5px solid rgb(158, 158, 158);
+}

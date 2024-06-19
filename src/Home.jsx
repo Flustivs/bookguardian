@@ -1,13 +1,15 @@
 import React from "react";
+import libraryImage from "./pic/library_white.jpg";
+import "./CSS/main.css";
+import "./CSS/Home_css.css";
 
 function Home() {
     return (
-        <div>
-            <h1>
+        <div className="backgroundimg" style={{ backgroundImage: `url(${libraryImage})` }}>
+            <h1 className="bigtext">
                 Velkommen til
                 Book Guardian
             </h1>
-            <p>This is the home page.</p>
         </div>
     );
 }

@@ -1,7 +1,7 @@
 .bigtext {
-    font-size: 2vw; /* Adjusted font-size to be responsive */
-    color: black;
-    text-decoration: none; /* Removes underline from link */
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
 }
 h1{
     text-align: center;
