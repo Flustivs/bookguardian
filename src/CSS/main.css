@@ -3,3 +3,6 @@
     color: black;
     text-decoration: none; /* Removes underline from link */
 }
+h1{
+    text-align: center;
+}

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import profile from "./pic/profile.png";
 import down_arrow from "./pic/down-arrow.png";
 import shopping_basket from "./pic/shopping-basket.png";
+import search from "./pic/transparency.png";
 import "./CSS/main.css";
 import "./CSS/nav_css.css";
 
@@ -17,6 +18,9 @@ function Nav() {
         <nav>
             <Link to="/Home" className="bigtext">Book Guardian</Link>
             <div className="container">
+                <button className="dropdownbutton">
+                    <img className="searchimg" src={search} />
+                </button>
                 <input type="text" placeholder="Søg på bøgere" />
             </div>
             <img className="basket" src={shopping_basket} alt="Basket" />
