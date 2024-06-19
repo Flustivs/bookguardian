@@ -28,6 +28,7 @@ function Nav() {
             {isPopupVisible && (
                 <div className="popup-box">
                     <button className='signbutton'>Sign In</button>
+                    <br />
                     <button className='signbutton'>Sign Up</button>
                 </div>
             )}
